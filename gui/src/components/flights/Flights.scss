@@ -1,0 +1,32 @@
+.flights-container {
+    text-align: center;
+
+    h2 {
+        padding: 10px;
+    }
+
+    table {
+        width: 80%;
+        border: 1px solid black;
+        text-align: center;
+        margin: 10px 0 10px 10%;
+
+        tr {
+
+            th {
+                border: 1px solid black;
+            }
+
+            td {
+                border: 1px solid black;
+
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+        text-align: center;
+        display: block;
+    }
+}

@@ -1,0 +1,47 @@
+.companyname-container {
+    margin: 150px 0 0 15%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: stretch;
+    left: 20%;
+
+    h2 {
+        text-transform: uppercase;
+        font-size: 50px;
+        letter-spacing: 10px;
+        font-family: 'Saira Semi Condensed', sans-serif;
+        margin: 0;
+    }
+
+    h3 {
+        letter-spacing: 5px;
+        font-family: 'Aguafina Script', cursive;
+    }
+
+    a {
+        padding: 10px;
+        background-color: red;
+        border: 0;
+        font-size: 20px;
+        margin: 0 70px;
+        color: black;
+    }
+}
+
+@media (max-width: 400px) {
+    .companyname-container {
+        h2 {
+            font-size: 25px;
+        }
+
+        h3 {}
+
+        button {
+            font-size: 10px;
+        }
+    }
+
+}

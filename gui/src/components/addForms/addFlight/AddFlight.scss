@@ -1,0 +1,32 @@
+.add-flight-container {
+    h1 {
+        text-align: center;
+        padding: 10px;
+    }
+
+    form {
+        text-align: center;
+
+        label {
+            padding: 10px;
+        }
+    }
+}
+
+
+@media (max-width: 980px) {
+    .add-flight-container {
+        height: 1000px;
+
+        h1 {
+            text-align: center;
+
+        }
+
+        form {
+            text-align: center;
+
+            label {}
+        }
+    }
+}

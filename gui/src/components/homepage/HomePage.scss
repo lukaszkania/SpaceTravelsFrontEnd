@@ -1,0 +1,12 @@
+.homepage-container {
+    background-image: url('./img/homepage-background.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 980px) {
+    .homepage-container {}
+}

@@ -1,0 +1,34 @@
+.edit-flight-container {
+    h3 {
+        text-align: center;
+        padding: 10px;
+    }
+
+    form {
+        text-align: center;
+
+        label {
+            padding: 2px;
+        }
+    }
+}
+
+@media (max-width: 980px) {
+    .edit-flight-container {
+        height: 1000px;
+
+        h1 {
+            text-align: center;
+
+        }
+
+        form {
+            text-align: center;
+
+            label {
+                height: 3px;
+
+            }
+        }
+    }
+}
